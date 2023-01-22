@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Righteous&family=Sarala:wght@400;700&display=swap");
+
+/*zerando o CSS*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* fundo-tela*/
+
+html {
+  /* width: 100vw;
+  height: 100vw; */
+  font-size: 62.5%;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+}
+
+/*menu - header - navbar*/
+header {
+  background-color: black;
+}
+
+main {
+  /* background-image: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)),
+    url(./imagens/fundo.jpg); */
+  /* background: url(./imagens/escura.jpg); */
+  /* background-position: center; */
+  /* background-size: contain; */
+  /* background-repeat: no-repeat; */
+  /* overflow: hidden; */
+  background: url(./imagens/escura.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: calc(100vh - 160px);
+  width: 100vw;
+}
+
+.menu-content {
+  text-transform: uppercase;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.8rem;
+  padding: 50px 20px;
+}
+
+.logo {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.menu-content .list-itens {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+.menu-content .list-itens a {
+  text-decoration: none;
+  color: white;
+  padding: 1.5rem;
+  transition: 2, s ease-in;
+  position: relative;
+}
+
+.menu-content .list-itens a:before {
+  content: " ";
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 0px;
+  height: 1px;
+  background-color: rgb(251, 255, 0);
+  transition: all 1.5s ease;
+}
+
+.menu-content .list-itens a:hover:before {
+  width: 100%;
+}
+
+/* Centro -conteudo principal */
+
+/* main {
+  width: 100%;
+  margin: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.main-content {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* .about {
+  font-size: 24px;
+}
+
+.container-img {
+  width: 50%;
+} */
