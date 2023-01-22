@@ -29,22 +29,6 @@ header {
   background-color: black;
 }
 
-main {
-  /* background-image: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)),
-    url(./imagens/fundo.jpg); */
-  /* background: url(./imagens/escura.jpg); */
-  /* background-position: center; */
-  /* background-size: contain; */
-  /* background-repeat: no-repeat; */
-  /* overflow: hidden; */
-  background: url(./imagens/fundo.jpg);
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: calc(100vh - 160px);
-  width: 100vw;
-}
-
 .menu-content {
   text-transform: uppercase;
   height: 100%;
@@ -52,7 +36,7 @@ main {
   justify-content: space-between;
   align-items: center;
   font-size: 1.8rem;
-  padding: 50px 20px;
+  padding: 20px 40px;
 }
 
 .logo {
@@ -91,23 +75,62 @@ main {
 }
 
 /* Centro -conteudo principal */
+main {
+  display: flex;
+  justify-content: center;
+  /* background-image: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)),
+    url(./imagens/fundo.jpg); */
+  /* background: url(./imagens/escura.jpg); */
+  /* background-position: center; */
+  /* background-size: contain; */
+  /* background-repeat: no-repeat; */
+  /* overflow: hidden; */
+  /* background: url(./imagens/fundo.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: calc(100vh - 160px);
+  width: 100vw; */
+}
 
-/* main {
+.dj {
+  align-items: center;
+  justify-content: center;
+}
+
+.dj img {
+  margin: 10px;
+  width: 500px;
+}
+
+.title {
+  margin: 100px 0 50px 0;
+  text-align: center;
+  font-size: 50px;
+}
+
+.bio-content {
+  width: 750px;
+  font-size: 32px;
+  
+}
+
+ /* main {
   width: 100%;
   margin: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: black;
-}
+} */
 
-.main-content {
+/* .main-content {
   width: 50%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-} */
+} */ */
 
 /* .about {
   font-size: 24px;
@@ -115,4 +138,9 @@ main {
 
 .container-img {
   width: 50%;
+} */
+
+/* footer */
+/* .rodape {
+  width: 300px;
 } */
